@@ -32,7 +32,7 @@ const HeroSection = () => {
                     I'm a third-year Computer Science student at San José State University. Alongside my major, I'm delving into the fields of Psychology, Neuroscience, and Statistics. I find inspiration between the intersection of technology and the intricacies of human behavior. 
                 </p>
                 <div>
-                    <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 hiver:bg-slate-200 text-white">
+                    <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 hover:bg-slate-200 text-white">
                         Contact
                     </button>
                     <button className="px-1 py-1 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 bg-transparent hover:bg-slate-800 text-white mt-3">
