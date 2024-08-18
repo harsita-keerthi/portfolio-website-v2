@@ -29,8 +29,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
-                    I'm a third-year Computer Science student at San José State University. Alongside my major, I'm delving into the fields of Psychology, Neuroscience, and Statistics. I find inspiration between the intersection of technology and the intricacies of human behavior. 
-                </p>
+                    I'm a Computer Science student at San Jose State University, driven by a passion for developing projects that make a meaningful impact in the real world. Let's connect and explore how we can create impactful solutions together!</p>
                 <div>
                     <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 hover:bg-slate-200 text-white">
                         Contact
@@ -41,13 +40,13 @@ const HeroSection = () => {
                 </div>
                 </div>
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-                    <div className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative">
+                    <div className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative shadow-lg transform transition duration-300 hover:scale-105">
                     <Image
                         src="/images/hero_image.png"
                         alt="hero image"
-                        className = "absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                        width={300}
-                        height={300}
+                        className = "absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+                        width={350}
+                        height={350}
                     />
                     </div>
                 </div>
