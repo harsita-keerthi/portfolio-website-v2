@@ -35,7 +35,9 @@ const HeroSection = () => {
                         Contact
                     </button>
                     <button className="px-1 py-1 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 bg-transparent hover:bg-slate-800 text-white mt-3">
+                    <a href="/swe-resume-11.pdf" target="_blank" rel="noopener noreferrer">
                         <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Resume</span>
+                    </a>
                     </button>
                 </div>
                 </div>

@@ -10,7 +10,7 @@ const projectsData = [
       description: "AI Flashcards SaaS Application",
       image: "/images/projects/flashcards-ai.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/harsita-keerthi/flashcards-ai",
       previewUrl: "/",
     },
     {
@@ -19,8 +19,8 @@ const projectsData = [
       description: "Chatbot for Language Learners",
       image: "/images/projects/lingomate.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
-      previewUrl: "/",
+      gitUrl: "https://github.com/zfshaikh/CustomerAI_Chat",
+      previewUrl: "https://lingomate-ai.vercel.app/",
     },
     {
       id: 3,
@@ -28,8 +28,8 @@ const projectsData = [
       description: "Stock Price Prediction with LSTM and Moving Averages",
       image: "/images/projects/stock.png",
       tag: ["All", "Web", "ML/Data"],
-      gitUrl: "/",
-      previewUrl: "/",
+      gitUrl: "https://github.com/harsita-keerthi/stock-prediction-model",
+      previewUrl: "https://stock-prediction-model.streamlit.app/",
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const projectsData = [
       description: "Algorithmic Trading Bot for Equity Markets",
       image: "/images/projects/trading-bot.jpeg",
       tag: ["All", "ML/Data"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/harsita-keerthi/algorithmic-trading-bot",
       previewUrl: "/",
     },
     {
@@ -46,7 +46,7 @@ const projectsData = [
       description: "Travel Safety Platform with AI Integration",
       image: "/images/projects/project-safe-swan.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/peeoke/SafeSwan",
       previewUrl: "/",
     },
     {
@@ -55,7 +55,7 @@ const projectsData = [
       description: "Electroencephalogram (EEG) Data Analysis using OpenBCI",
       image: "/images/projects/eeg.jpeg",
       tag: ["All", "ML/Data"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/harsita-keerthi/OpenBCI-EEG",
       previewUrl: "/",
     },
     {
@@ -65,7 +65,7 @@ const projectsData = [
         image: "/images/projects/taskease.png",
         tag: ["All", "Product"],
         gitUrl: "/",
-        previewUrl: "/",
+        previewUrl: "/taskease-project-demo.pdf",
     },
 ];
 
