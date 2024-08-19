@@ -36,61 +36,7 @@ const EmailSection = () => {
                 </Link>
             </div>
         </div>
-        {/* <div>
-            <form className="flex flex-col">
-                <div className="mb-6">
-                <label 
-                    htmlFor="email" 
-                    className="text-white block mb-2 text-md font-medium"
-                >
-                    Your email
-                </label>
-                <input 
-                    type="email" 
-                    id="email" 
-                    required 
-                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="your-email@gmail.com"
-                />
-                </div>
-                <div className="mb-6">
-                <label 
-                    htmlFor="subject" 
-                    className="text-white block mb-2 text-md font-medium"
-                >
-                    Subject
-                </label>
-                <input 
-                    type="subject" 
-                    id="subject" 
-                    required 
-                    className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="Let's Connect!"
-                />
-                </div>
-                <div className="mb-6">
-                    <label
-                        htmlFor="message"
-                        className="text-white block text-md mb-2 font-medium"
-                    >
-                        Message
-                    </label>
-                    <textarea
-                        name="message"
-                        id="message"
-                        className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                        placeholder="Leave your message here."
-                    >
-                    </textarea>
-                </div>
-                <button
-                    type="submit"
-                    className="bg-purple-500 hover:bg-purple-500 font-medium py-2.5 px-5 rounded-lg w-full"
-                >
-                    Send Message
-                </button>
-            </form>
-        </div> */}
+        
         <div className="flex items-center justify-center">
             {submitted ? (
             // If `submitted` is true, render this confirmation message
