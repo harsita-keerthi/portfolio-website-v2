@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12">
                 <motion.div initial={{ opacity: 0, scale: 0.5}} animate={{opacity: 1, scale: 1}} transition={{duration:0.5}} className="col-span-8 place-self-centert text-center sm:text-left justify-self-start">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-500">Hello, I'm {""}</span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-500">Hello, I&apos;m {""}</span>
                     <br/>
                     <TypeAnimation
                         sequence={[
@@ -30,7 +30,7 @@ const HeroSection = () => {
                     />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
-                    I'm a Computer Science student at San Jose State University, driven by a passion for developing projects that make a meaningful impact in the real world. Let's connect and explore how we can create impactful solutions together!</p>
+                    I&apos;m a Computer Science student at San Jose State University, driven by a passion for developing projects that make a meaningful impact in the real world. Let&apos;s connect and explore how we can create impactful solutions together!</p>
                 <div>
                     <a href="#contact">
                     <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
