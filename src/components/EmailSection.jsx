@@ -16,7 +16,7 @@ const EmailSection = () => {
 
   return (
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-16 relative">
-        <div className="absolute w-80 h-80 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full blur-lg top-full -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute w-80 h-80 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-secondary-900 to-transparent rounded-full blur-lg top-full -left-4 transform -translate-x-1/2 -translate-y-1/2"></div>
         <div className="z-10">
             <h4 className="text-2xl font-bold text-white my-2">Let's Connect</h4>
             <p className="text-[#ADB7BE] mb-4 max-4-md text-xl">
@@ -37,10 +37,10 @@ const EmailSection = () => {
             </div>
         </div>
         
-        <div className="flex items-center justify-center">
+        <div className="justify-center items-center">
             {submitted ? (
             // If `submitted` is true, render this confirmation message
-            <div className="bg-gradient-to-br from-blue-500 to-purple-500 text-white p-4 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-primary-500 to-secondary-500 text-white p-4 rounded-lg shadow-lg">
                 <p className="text-lg font-semibold">Thank you for your message! I'll get back to you soon.</p>
             </div>
             ) : (
@@ -83,7 +83,7 @@ const EmailSection = () => {
                 </div>
                 <button
                     type="submit"
-                    className="bg-purple-500 hover:bg-purple-600 font-medium py-2.5 px-5 rounded-lg w-full"
+                    className="bg-secondary-500 hover:bg-secondary-600 font-medium py-2.5 px-5 rounded-lg w-full"
                 >
                  Send Message
                 </button>
