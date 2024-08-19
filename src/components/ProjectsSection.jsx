@@ -6,9 +6,9 @@ import ProjectTag from "./ProjectTag"
 const projectsData = [
     {
       id: 1,
-      title: "Revise Wise",
+      title: "Memo",
       description: "AI Flashcards SaaS Application",
-      image: "/images/projects/flashcards-ai.png",
+      image: "/images/projects/memo-ai.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/harsita-keerthi/flashcards-ai",
       previewUrl: "/",
