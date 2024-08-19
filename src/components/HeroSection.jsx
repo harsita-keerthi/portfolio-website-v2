@@ -2,13 +2,14 @@
 import React from 'react'
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'framer-motion';
 
 const HeroSection = () => {
     return (
         <section className="lg:py-16 ">
             <div className="grid grid-cols-1 lg:grid-cols-12">
-                <div className="col-span-8 place-self-centert text-center sm:text-left justify-self-start">
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+                <motion.div initial={{ opacity: 0, scale: 0.5}} animate={{opacity: 1, scale: 1}} transition={{duration:0.5}} className="col-span-8 place-self-centert text-center sm:text-left justify-self-start">
+                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-500">Hello, I'm {""}</span>
                     <br/>
                     <TypeAnimation
@@ -27,8 +28,8 @@ const HeroSection = () => {
                     style={{ fontSize: '1em', display: 'inline-block' }}
                     repeat={Infinity}
                     />
-                </h1>
-                <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
+                    </h1>
+                    <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
                     I'm a Computer Science student at San Jose State University, driven by a passion for developing projects that make a meaningful impact in the real world. Let's connect and explore how we can create impactful solutions together!</p>
                 <div>
                     <a href="#contact">
@@ -42,8 +43,8 @@ const HeroSection = () => {
                     </a>
                     </button>
                 </div>
-                </div>
-                <div className="col-span-4 place-self-center mt-4 lg:mt-0">
+                </motion.div>
+                <motion.div initial={{ opacity: 0, scale: 0.5}} animate={{opacity: 1, scale: 1}} transition={{duration:0.5}} className="col-span-4 place-self-center mt-4 lg:mt-0">
                     <div className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative shadow-lg transform transition duration-300 hover:scale-105">
                     <Image
                         src="/images/hero_image.png"
@@ -53,7 +54,7 @@ const HeroSection = () => {
                         height={350}
                     />
                     </div>
-                </div>
+                </motion.div>
             </div>
         </section>
     );
