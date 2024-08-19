@@ -38,3 +38,8 @@ body {
   width: 100vw;
   position: relative;
 } */
+
+html {
+  scroll-behavior: smooth;
+}
+

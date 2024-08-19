@@ -31,7 +31,7 @@ const HeroSection = () => {
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"> 
                     I'm a Computer Science student at San Jose State University, driven by a passion for developing projects that make a meaningful impact in the real world. Let's connect and explore how we can create impactful solutions together!</p>
                 <div>
-                    <a href="#EmailSection">
+                    <a href="#contact">
                     <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
                         Contact
                     </button>
