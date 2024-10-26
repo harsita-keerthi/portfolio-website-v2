@@ -13,7 +13,7 @@ const projectsData = [
       image: "/images/projects/memo-ai.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/harsita-keerthi/flashcards-ai",
-      previewUrl: "/",
+      previewUrl: "https://memo-flashcards-ai.vercel.app/",
     },
     {
       id: 2,
@@ -69,6 +69,24 @@ const projectsData = [
         gitUrl: "/",
         previewUrl: "/taskease-project-demo.pdf",
     },
+    {
+      id:8,
+      title: "Expansion for MKE Fellows",
+      description: "JPMC Data for Good Hackathon",
+      image: "/images/projects/jpmc-map.png",
+      tag: ["All", "ML/Data"],
+      gitUrl: "/",
+      previewUrl: "/jpmc-pitch-deck.pdf",
+  },
+  {
+    id:9,
+    title: "Protege",
+    description: "AI Learning Platform",
+    image: "/images/projects/protege.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/harsita-keerthi/protege",
+    previewUrl: "https://protege.reflex.run/",
+},
 ];
 
 const ProjectsSection = () => {
