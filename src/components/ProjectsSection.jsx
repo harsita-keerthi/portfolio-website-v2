@@ -61,13 +61,13 @@ const projectsData = [
       previewUrl: "/",
     },
     {
-        id:7,
-        title: "Task Ease Product Design",
-        description: "Task Management System for Individuals and Enterprises",
-        image: "/images/projects/taskease.png",
-        tag: ["All", "Product"],
-        gitUrl: "/",
-        previewUrl: "/taskease-project-demo.pdf",
+      id:7,
+      title: "Task Ease Product Design",
+      description: "Task Management System for Individuals and Enterprises",
+      image: "/images/projects/taskease.png",
+      tag: ["All", "Product"],
+      gitUrl: "/",
+      previewUrl: "/taskease-project-demo.pdf",
     },
     {
       id:8,
@@ -86,7 +86,16 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/harsita-keerthi/protege",
     previewUrl: "https://protege.reflex.run/",
-},
+  },
+  {
+    id:10,
+    title: "Search Query Recommendation System",
+    description: "Google x Break Through Tech Fall Studio Project",
+    image: "/images/projects/google.png",
+    tag: ["All", "Web", "ML/Data"],
+    gitUrl: "https://github.com/harsita-keerthi/btt-google-2e",
+    previewUrl: "https://docs.google.com/presentation/d/120Zn7rPPT29uXdwBKD9wdJlObjj7Nk3GWQwikFf93TM/edit#slide=id.g3194e11578a_2_12255",
+  },
 ];
 
 const ProjectsSection = () => {
