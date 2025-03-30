@@ -7,7 +7,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div>
       <div
-        className="group rounded-t-xl h-52 md:h-72 bg-center relative overflow-hidden"
+        className="group rounded-t-xl h-40 md:h-60 bg-center relative overflow-hidden"
         src={imgUrl}
         alt={title}
         width={300}
