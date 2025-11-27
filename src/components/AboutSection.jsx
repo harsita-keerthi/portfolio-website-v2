@@ -74,7 +74,7 @@ const AboutSection = () => {
                 />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-                    <p className="text-base md:text-lg">I&apos;m a third-year Computer Science student at San José State University. Alongside my major, I&apos;m delving into the fields of Psychology, Neuroscience, and Statistics. I find inspiration between the intersection of technology and the intricacies of human behavior. </p>
+                    <p className="text-base md:text-lg">I&apos;m a final year Computer Science student at San José State University. Alongside my major, I&apos;m delving into the fields of Psychology, Neuroscience, and Statistics. I find inspiration between the intersection of technology and the intricacies of human behavior. </p>
                     <div className="flec flex-row justify-start mt-8">
                         <TabButton 
                             selectTab={() => handleTabChange("skills")} 

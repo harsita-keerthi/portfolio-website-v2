@@ -21,7 +21,7 @@ const EmailSection = () => {
             <h4 className="text-2xl font-bold text-white my-2">Let&apos;s Connect</h4>
             <p className="text-[#ADB7BE] mb-4 max-4-md text-xl">
                 {" "}
-                I&apos;m currently looking for internships in Software Engineering, Machine Learning, and Product Management. My inbox is always open, so reach out to me if you think I would be a good fit for a role! Whether you have a question or just want to chat, I&apos;ll try my best to get back to you. 
+                I&apos;m currently looking for full-time roles in Software Engineering, Machine Learning, and Product Management. My inbox is always open, so reach out to me if you think I would be a good fit for a role! Whether you have a question or just want to chat, I&apos;ll try my best to get back to you. 
             </p>
             <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/harsita-keerthi"
